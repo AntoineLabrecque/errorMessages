@@ -1,0 +1,64 @@
+error: expected ';' after expression
+	It looks like the expression should end.
+error: passing 'float' to parameter of incompatible type 'const char *'
+	Not calling a function properly.
+error: expected expression
+	It looks like there should be an expression, but there is none.
+error: use of undeclared identifier 'f'
+	A piece of code looks like a variable or function, but none by that name are declared.
+error: unknown type name 'using'
+	Something looks like a type, but isn't.
+error: expected '=', ',', ';', 'asm' or '__attribute__' before 'std'
+	Using something when you shouldn't.
+error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+	Using a numeric constant when you shouldn't.
+error: parameter name omitted
+	No having a parameter name.
+error: expected declaration specifiers or '...' before '*' token
+	Not having a type or '...' before a parameter in a function declaration.
+error: 'null' undeclared (first use in this function)
+	Using something that doesn't have any meaning.
+error: expected ')' before '*' token
+	Having a '*' where it looks like a ')' should be the next thing.
+error: expected ';', ',' or ')' before '...' token
+	Having a '...' where it shouldn't be.
+error: too many arguments to function 'Exercise_3'
+	Calling a function with more parameters than it looks like it needs, or having void parameters.
+error: expected expression before ',' token
+	Having a ',' where an expression should be.
+error: expected ',' or ';' before 'void'
+	Using 'void' where it shouldn't be.
+error: expected identifier or '(' before '[' token
+	Having a '[' where it looks like there shouldn't be one.
+error: invalid use of void expression
+	Using void types wrong.
+error: void value not ignored as it ought to be.
+	Using a void type when you shouldn't.
+error: invalid operands to binary + (have 'void *' and 'void *')
+	Not using + properly.
+error: declaration of 'A' as array of voids
+	Declaring void arrays when you shouldn't.
+error: called object is not a function or function pointer
+	Something looks like a function or a function pointer, but it is not.
+error: expected ')' before 'holder'
+	It looks like there sould be a ')' before 'holder'.
+error: expected identifier or '(' before numeric constant
+	Having a numeric constant where it looks like there shouldn't be one.
+error: invalid suffix "x" on integer constant
+	Having what looks like a suffix on an integer constant when there shouldn't be.
+error: expected ')' before numeric constant
+	Having what looks like a numeric constant where there shouldn't be one.
+error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+	Using a '.' where it looks like you shouldn't.
+error: invalid initializer
+	Initializing something to an incompatable type.
+error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+	Using what looks like a for loop when it is not compatable.
+error: redefinition of 'i'
+	Making it look like you are redeclaring a variable.
+error: #include expects "FILENAME" or <FILENAME>
+	Not using quotes or angle braces with include.
+fatal error: studio.h: No such file or directory
+	Trying to include something that is not available.
+error: lvalue required as left operand of assignment
+	Not assigning something properly when it looks like that is what you want to do.

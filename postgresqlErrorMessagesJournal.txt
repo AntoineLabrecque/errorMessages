@@ -1,0 +1,9 @@
+[Code: , SQL State: 42601]  ERROR: syntax error at or near "SELECT"
+	Bad syntax.
+[Code: , SQL State: 25P02]  ERROR: current transaction is aborted, commands ignored until end of transaction block
+	Having a previous bad syntax prevent future transactions.
+[Code: , SQL State: 42P01]  ERROR: relation "univerity" does not exist
+	Trying to access a table that doesn't exist.
+[Code: , SQL State: 42501]  ERROR: must be superuser to COPY to or from a file
+  Hint: Anyone can COPY to stdout or from stdin. psql's \copy command also works for anyone.
+	Not having the right authorization.

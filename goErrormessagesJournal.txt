@@ -1,0 +1,116 @@
+not enough arguments in call to rand.Seed have () want (int64) 
+	Calling a function without enough arguments.
+cannot refer to unexported name time.now 
+	Trying to get access to something that doesn't have an initial capital.
+undefined: time.now
+	Trying to call a use something that isn't defined.
+cannot use time.Now() (type time.Time) as type int64 in argument to rand.Seed 
+	Calling a function with the wrong arguments.
+syntax error: unexpected time, expecting comma or ) 
+	Having what looks like time in the wrong place, or a previously bad syntax makes things not make sence to the compiler here.
+syntax error: non-declaration statement outside function body 
+	Previous bad syntax makes things not make sence to the compiler.
+imported and not used: "time" 
+	Not using an import.
+func main must have no arguments and no return values 
+	Trying to give main arguments or return values.
+missing function body for "main" 
+	Not having the '{' on the same line as the declaration, or having the return named when there is only one.
+syntax error: unexpected semicolon or newline before {
+	Having a semicolon of newline before the opening brace of a function.
+syntax error: unexpected int at end of statement 
+	Having a complete statement, but there is an unneccicary int after, there is a named return when there is only one, or previous bad syntax makes things not make sence to the compiler.
+cannot assign 1 values to 3 variables 
+	Trying to assign the wrong number of values to the wrong number of variables.
+syntax error: unexpected <, expecting expression 
+	Having a '<' in the wrong place, or where there looks like there shouldn't be one, or a previously bad syntax makes things not make sence to the compiler here.
+cannot use f (type float64) as type uint in assignment 
+	Trying to assign something of the wrong type.
+cannot convert time.Now() (type time.Time) to type int64
+	Trying to convert something to a non-compatible type.
+constant 1267650600228229401496703205376 overflows int 
+	Overflowing a type.
+syntax error: unexpected :, expecting { after for clause 
+	Having a what looks like a ':' in the wrong place, or previous bad syntax makes things not make sence to the compiler here.
+syntax error: unexpected newline, expecting { after if clause 
+	Not having the '{' on the end of the line of the if statement, or having bad syntax on its line.
+not enough arguments to return have () want (float64) 
+	Having a function not return enough arguments.
+syntax error: unexpected newline, expecting type
+	Not having the type with a var statement.
+syntax error: unexpected float64 after top level declaration 
+	Having the return named when there is only one.
+expected operand, found '='
+	Having something else when it looks like there should be an operand.
+syntax error: unexpected {, expecting for loop condition
+	Missing the for loop semicolons or not having the opening brace on the same line.
+invalid operation: sum += i (mismatched types int and float64)
+	Trying to do an operation with incompatible types.
+missing return at end of function
+	Having a function return something, but not doing it.
+syntax error: i = <bad expr> used as value
+	Not having the open brace on the same line as a for range statement, assignment when equivalance is wanted, or missing range.
+syntax error: unexpected main, expecting (
+	Previous bad syntax makes things not make sence to the compiler.
+syntax error: unexpected :, expecting ; 
+	Having a ':' where there looks like there shouldn't be one.
+i declared and not used
+	Not using a variable.
+syntax error: var declaration not allowed in for initializer 
+	Trying to declare with var in a for initializer.
+cannot use (i / dx + i % dx) / 2 (type int) as type uint8 in append 
+	Trying to give  append incompatible types.
+method has no receiver
+	Having a function return a method but that method only returns one thing and it is named.
+cannot use nil as type string in return argument 
+	Trying to return something of the wrong type.
+empty character literal or unescaped ' in character literal
+	Not having a charater literal propperly set up.
+cannot range over m (type MyReader) 
+	Trying to range over something of incompatible type.
+syntax error: unexpected +=, expecting ]
+	Not having the square braces set up sorrectly.
+cannot slice m (type MyReader) 
+	Trying to slice an incompattible type.
+syntax error: unexpected [, expecting name or (
+	Having a [ when it looks like there shouldn't be one.
+syntax error: mixed named and unnamed function parameters
+	Having a function return a mix of named and unnamed parameters.
+cannot find package "gzip" in any of: /usr/local/go/src/gzip (from $GOROOT) /go/src/gzip (from $GOPATH)
+	Trying to import a package that doesn't exist.
+syntax error: unexpected range, expecting := or = or comma 
+	Having a range statement without the ":=".
+syntax error: unexpected ++, expecting : 
+	Bad syntax.
+invalid operation: r[i] (type *rot13Reader does not support indexing) 
+	Trying to index something of incompatible type.
+second argument to copy should be slice or string; have *rot13Reader 
+	Trying to call a function with an incompatible type.
+invalid receiver type io.Reader (io.Reader is an interface type) 
+	Trying to invoke a method with the wrong type.
+invalid indirect of r (type rot13Reader)
+	Trying to dereference a non-pointer.
+multiple-value r.r.Read() in single-value context 
+	Using something that returns multiple values when they aren't going to be caught.
+syntax error: unexpected =, expecting [ 
+	Trying to initiallize a map without declaring its types.
+cannot use i (type rune) as type byte in map index
+	Trying to index a map with an incompatible type.
+expected 'package', found 'var' 
+	Not having the package the first piece of code.
+syntax error: unexpected var, expecting field name or embedded type 
+	Having var in a struct.
+too many arguments to conversion to color.RGBA: color.RGBA(x, y, 255, 255) 
+	Trying to call something with too many arguments.
+invalid argument i.p[0] (type uint8) for len 
+	Trying to call len with an incompatible type.
+too many values in struct initializer
+	Trying to initialize a struct with too many values.
+cannot use 1 (type int) as type image.RGBA in field value 
+	Trying to set a field value to an incompatible type.
+no new variables on left side of := 
+	Using := without any new variables.
+non-name s.v on left side of := 
+	Trying to assign something to something that isn't a variable.
+expression in go must be function call 
+	Trying to use go without a function call.

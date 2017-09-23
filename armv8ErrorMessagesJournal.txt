@@ -1,0 +1,38 @@
+error adding symbols: File in wrong format
+	Trying to compile something that isn't c.
+Error: operand 1 should be an integer register -- `mov x 0,#1'
+	The first operand isn't an integer register and should be.
+Error: unknown pseudo-op: `.'
+	There is a '.' when there shouldn't be.
+Error: unexpected characters following instruction at operand 1 -- `b . LT exit'
+	There are characters that should not be where they are.
+Error: unknown mnemonic `b.' -- `b. LT exit'
+	Something looks like a mnemonic, but isn't.
+Error: comma expected between operands at operand 2 -- `add x0#1'
+	There is no comma where there should be.
+Error: operand 2 should be an integer or stack pointer register -- `add x0,#1'
+	The second operand isn't an integer or stack pointer register, and it should be.
+Error: undefined symbol x3 used as an immediate value
+	Using x3 when it looks like there should be an immediate.
+Error: invalid addressing mode at operand 2 -- `ldur x4,[x6,x3]'
+	The second operand in addressing modes should be constant.
+Error: immediate value should be a multiple of 4 at operand 1 -- `b.le #9'
+	Using a non-multiple of 4 when it looks like you should be.
+Error: symbol `goodA' is already defined
+	Something looks like a symbol that is already defined.
+Error: immediate out of range
+	Using an immediate that it looks like you shouldn't be.
+Error: operand mismatch -- `stxr x4,x3,[x0]'
+	Having one type of operand when it looks like you should have another one.
+Error: operand 3 should be an address with base register (no offset) -- `stxr w4,w3,[w0]'
+	Having an offset when you shouldn't.
+Error: ']' expected at operand 2 -- `ldur x3,[x1#0]'
+	Something looks like there should be a '[' there, may be missing a ,.
+Error: immediate out of range at operand 3 -- `and x0,x0,#0xfef'
+	The immediate number is to big.
+Error: unexpected comma after the mnemonic name `b.lt' -- `b.lt ,true'
+	There is a comma where there shouldn't be.
+Error: invalid address at operand 1 -- `b.ge'
+	Putting something that isn't an address where an address should go.
+Error: operand 1 should be a SIMD vector register -- `fadd x5,x3,x4'
+	Not using the d registers when it looks like you should.

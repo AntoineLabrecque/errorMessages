@@ -1,0 +1,6 @@
+Error Code: 1050. Table 'branch' already exists
+	Trying to make a table that already exists.
+Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+	Trying to update a table without a key columned where clausein safe mode.
+Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE staff SET salary = salary * 1.1 where 'Manager' = staff . position' at line 2
+	Bad syntax.

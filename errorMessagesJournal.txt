@@ -1,0 +1,154 @@
+error: expected ';' after return statement
+	Missing a ‘;’ after a return statement.
+error: expected unqualified-id
+	Generally, there is something there when it looks like it shouldn’t be, like when there is no function when a ‘{‘ indicates that one is starting, could be caused by having more ‘}’s than ‘{‘, or no function header, or a ‘*’ when it isn’t needed, or data types being assigned something, etcetera.
+error: use of undeclared identifier 'i'
+	A piece of code looks like a variable or function, but none by that name are declared.
+error: no matching function for call to 'midpoint'
+	Trying to call a function without proper parameters, a matching function, or there is a typo in the name.
+error: cannot initialize a variable of type 'float *' with an lvalue of type 'float'
+	Incorrect data type being put into a variable or parameter.
+error: expected expression
+	Missing something, possibly a ‘}’, “cout”, ‘“‘, a proper record access, etcetera,  before a statement.
+error: function definition is not allowed here
+	Declaring a function inside another function, can be caused by having more ‘{’s than ‘}’s.
+error: expected '}'
+	There are more ‘{’s than ‘}’s by the end of the program, or a ‘}’ or ‘,’ is missing in an array declaration.
+error: expected ';' at end of declaration
+	Missing a ‘;’.
+fatal error: 'stdlib' file not found
+	There is no library by that name.
+error: reference to overloaded function could not be resolved
+	There was “>>” instead of “<<“ before “endl”.
+error: invalid preprocessing directive
+	The word ’include’ was spelled wrong for a library.
+error: initializer-string for char array is too long
+	There is not enough room in a char array to fit what is being initialized to it.
+error: subscripted value is not an array, pointer, or vector
+	Something looks like an array, pointer, or a vector, but it is not.
+error: expression is not assignable
+	Trying to assign data to an incompatible type.
+error: invalid operands to binary expression ('int *' and 'int *')
+	Trying to use expressions with data types that are incompatible.
+error: cannot initialize a variable of type 'int' with an rvalue of type 'int *'
+	Trying to initialize a variable to an incompatible type.
+error: expected ';' after top level declarator
+	Missing a ‘;’ after a function prototype.
+error: invalid use of non-static data member 'hour'
+	A record type was accesses incorrectly.
+error: array initializer must be an initializer list or string literal
+	Initializing a character array with the wrong type of data.
+error: expected 'while' in do/while loop
+	There was no “while” for the loop.
+error: expected ']'
+	There is no ‘]’, or there is something in-between them that makes it broken.
+error: default initialization of an object of const type 'const char [65]'
+	A const is declared but not initialized.
+error: no viable overloaded '='
+	The variable doesn’t hold the data that is assigned to it.
+error: member reference type 'StudentRecord *' is a pointer
+	Trying to access a record field from a pointer improperly.
+error: assigning to 'char' from incompatible type 'char *'
+	Trying to assign incompatible data to a variable.
+error: indirection requires pointer operand ('int' invalid)
+	Trying to use a non-pointer as a pointer.
+error: cannot delete expression of type 'char'
+	Trying to delete a non-address.
+error: expected '(' for function-style cast or type construction
+	Syntax is bad.
+error: reference to non-static member function must be called
+	Calling a function without ‘(‘ and ‘)’.
+error: no member named 'begining' in 'journalList'
+	Something looks like a member of a record, but it is not.
+error: unknown type name 'list'
+	A piece of code looks like a data type, but there is no record accessible that verifies it.
+error: implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'
+	A piece of code looks like something when it is used in a different way.
+error: no matching member function for call to 'getline'
+	Calling a function improperly, possibly with a const when it can’t have it.
+error: member function 'close' not viable: 'this' argument has type 'const ifstream' (aka 'const basic_ifstream<char>'), but function is not marked const
+	Giving a constant variable to a non-constant function.
+error: redefinition of 'list'
+	Defining a record more than once in a program.
+error: 'list' does not refer to a value
+	Vector *alloc_vec( void )A piece of code looks like a record type but none of that name are declared.
+error: member reference type 'item' is not a pointer
+	Trying to use a non-pointer as a pointer.
+error: only the first dimension of an allocated array may have dynamic size
+	Trying to allocate more than one dimension of an array.
+error: linker command failed with exit code 1 (use -v to see invocation)
+	A function declaration doesn’t match any function implementation.
+error: read-only variable is not assignable
+	Trying to put something into a constant variable, even what it is pointing to.
+error: comparison between pointer and integer ('Element *' (aka 'int *') and 'Element' (aka 'int'))
+	Trying to compare incompatible data types.
+error: array size is negative
+	Trying to initialize a negatively sized array.
+error: typedef redefinition with different types
+	Redefining a variable differently than before.
+error: cannot initialize return object of type 'Queue *' with an rvalue of type 'List *'
+	Trying to return the wrong type.
+error: cannot take the address of an rvalue of type 'List *'
+	Trying to access the address of a function call.
+error: cannot initialize return object of type 'Tree *' with an lvalue of type 'TreeNode *'
+	Trying to return the wrong type.
+error: 'x' is a private member of 'Point'
+	Trying to access a private member of a class directly from outside of the class.
+error: expected ':'
+	Missing a ‘:’.
+error: non-aggregate type 'list' cannot be initialized with an initializer list
+	Trying to initialize an object outside of its class at declaration.
+error: out-of-line declaration of a member must be a definition [-Wout-of-line-declaration]
+	There is a function declaration where there should be a definition.
+error: no viable conversion from 'long' to 'Node'
+	Trying to set incompatible data to another type.
+error: constructor for 'Node' must explicitly initialize the member 'data' which does not have a default constructor
+	Having an object within another object where the first object’s constructor takes parameters.
+error: too many arguments to function call, expected Arbitrary number n > 0, have Arbitrary number > n
+	The parameters of the functions don’t match.
+error: non-const lvalue reference to type 'const Node *' cannot bind to a temporary of type 'Node *'
+	A non-pointer is being set to a pointer.
+error: no matching constructor for initialization of 'Element' (aka 'item')
+	Trying to initialize an object incorrectly.
+error: out-of-line definition of 'Node' does not match any declaration in 'Node'
+	Having a function from an abstract data type but it doesn’t have any matching declaration in the header file.
+error: excess elements in scalar initializer
+	Having too many data values initialized at once to a variable.
+error: cast from pointer to smaller type 'int' loses information
+	Casting from a type with more bits to a type with less bits.
+error: base class 'std::__1::ios_base' has private copy constructor
+	Trying to do things not allowed by a class.
+error: 'puts' was not declared in this scope
+	having a function without a declaration.
+error: return-statement with no value, in function returning 'Vector*' [-fpermissive]
+	Having a return statement without a value when the function does.
+error: expected primary-expression before 'void'
+	Using something in the wrong place.
+error: expected ')' before 'void'
+	Using something in the wrong place.
+error: expected ')' before ';' token
+	Using something in the wrong place.
+error: expected initializer before 'int'
+	Having an improper function header.
+error: conversion from 'long int' to non-scalar type 'Vector' requested
+	Trying to put the wrong type of data into a different type of variable.
+error: base operand of '->' has non-pointer type 'Vector'
+	Trying to do pointer things with a non-pointer.
+error: no match for 'operator=' (operand types are 'Vector' and 'Vector*')
+	Trying to assign something to a type that doesn't match.
+error: cannot convert 'Vector' to 'Vector*' for argument 'Arbitrary number > 0' to 'void dealloc_vec(Vector*)'
+	Trying to pass a type in to a function that doesn't match the parameter.
+error: expected primary-expression before '}' token
+	There seems to be something missing.
+error: too few arguments to function 'Vector* scalar_minus(Vector*, Elem)'
+	Not having enough arguments for a function.
+error: cannot initialize an array element of type 'char *' with an rvalue of type 'char'
+	Assigning an incompatible to an element of an array.
+error: expected ';' after expression
+	Missing a ';' after a statement.
+error: non-void function 'main' should return a value [-Wreturn-type]
+	Returning from main without anything when something is needed.
+error: 'Vector' does not name a type
+	Not defining something propperly.
+error: ld returned 1 exit status
+	References could not be matched up.
