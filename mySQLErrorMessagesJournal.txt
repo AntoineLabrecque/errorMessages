@@ -4,3 +4,17 @@ Error Code: 1175. You are using safe update mode and you tried to update a table
 	Trying to update a table without a key columned where clausein safe mode.
 Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE staff SET salary = salary * 1.1 where 'Manager' = staff . position' at line 2
 	Bad syntax.
+Error Code: 1142. SELECT command denied to user 'cmpt370_softcert'@'204-83-92-164.sktn.hsdb.sasknet.sk.ca' for table 'staff'
+	Trying to do something that you are not allowed to do.
+Error Code: 1093. You can't specify target table 'staff' for update in FROM clause
+	Trying to specify the table that is being updated.
+Error Code: 1193. Unknown system variable 'number'
+	Trying to use a variable that doesn't exist.
+Error Code: 1248. Every derived table must have its own alias
+	Deriving a table but not giving it an alias.
+Error Code: 1054. Unknown column 'e.position' in 'where clause'
+	Trying to access a column that doesn't exist.
+Error Code: 1241. Operand should contain 1 column(s)
+	Trying to have a subquery with more than 1 column.
+Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`cmpt370_softcert`.`customerservice`, CONSTRAINT `staffNo` FOREIGN KEY (`staffNo`) REFERENCES `staff` (`staffNo`) ON DELETE NO ACTION ON UPDATE CASCADE)
+	Trying to edit a parent row when it is set to NO ACTION.
