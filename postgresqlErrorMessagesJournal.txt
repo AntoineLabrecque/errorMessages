@@ -7,3 +7,8 @@
 [Code: , SQL State: 42501]  ERROR: must be superuser to COPY to or from a file
   Hint: Anyone can COPY to stdout or from stdin. psql's \copy command also works for anyone.
 	Not having the right authorization.
+[Code: , SQL State: 42P01]  ERROR: missing FROM-clause entry for table "g"
+	Trying to referece a table that isn't in any FROM clauses.
+[Code: , SQL State: 42883]  ERROR: operator does not exist: integer = sections
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+	Trying to do something with incompatible types.
