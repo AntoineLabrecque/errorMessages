@@ -1,7 +1,7 @@
 [Code: , SQL State: 42601]  ERROR: syntax error at or near "SELECT"
 	Bad syntax.
 [Code: , SQL State: 25P02]  ERROR: current transaction is aborted, commands ignored until end of transaction block
-	Having a previous bad syntax prevent future transactions.
+	Having a previous uncommited bad transaction prevent future transactions.
 [Code: , SQL State: 42P01]  ERROR: relation "univerity" does not exist
 	Trying to access a table that doesn't exist.
 [Code: , SQL State: 42501]  ERROR: must be superuser to COPY to or from a file
@@ -17,5 +17,16 @@
 	Trying to reference a table that isn't in its scope.
 [Code: , SQL State: 42703]  ERROR: column "value" does not exist
 	Trying to reference a column that isn't there.
-[Code: , SQL State: 42P01]  ERROR: relation "assignments" does not exist
-	Trying to reference a table that doesn't exist yet.
+[Code: , SQL State: 42803]  ERROR: column "s.id" must appear in the GROUP BY clause or be used in an aggregate function
+	Trying to insert from a column one value, but not making sure that only one is given.
+[Code: , SQL State: 22007]  ERROR: conflicting values for "MM" field in formatting string
+	Having 'MM' in a conversion string more than once.
+[Code: , SQL State: 23502]  ERROR: null value in column "id" violates not-null constraint
+	Trying to set a not null column to null.
+[Code: , SQL State: 42601]  ERROR: subquery in FROM must have an alias
+  Hint: For example, FROM (SELECT ...) [AS] foo.
+	Trying to have an inline view without a name.
+[Code: , SQL State: 42601]  ERROR: syntax error at end of input
+	Missing something.
+[Code: , SQL State: 23503]  ERROR: update or delete on table "instructors" violates foreign key constraint "sections_instructor_id_fkey" on table "sections"
+	Trying to change a row that is a parent and not allowed.
