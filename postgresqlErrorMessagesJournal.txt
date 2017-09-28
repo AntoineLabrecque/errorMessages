@@ -15,3 +15,7 @@
 [Code: , SQL State: 42P01]  ERROR: invalid reference to FROM-clause entry for table "s"
   Hint: There is an entry for table "s", but it cannot be referenced from this part of the query.
 	Trying to reference a table that isn't in its scope.
+[Code: , SQL State: 42703]  ERROR: column "value" does not exist
+	Trying to reference a column that isn't there.
+[Code: , SQL State: 42P01]  ERROR: relation "assignments" does not exist
+	Trying to reference a table that doesn't exist yet.
