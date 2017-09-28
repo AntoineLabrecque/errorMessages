@@ -30,3 +30,7 @@
 	Missing something.
 [Code: , SQL State: 23503]  ERROR: update or delete on table "instructors" violates foreign key constraint "sections_instructor_id_fkey" on table "sections"
 	Trying to change a row that is a parent and not allowed.
+[Code: , SQL State: 42601]  ERROR: INSERT has more expressions than target columns
+	Trying to insert too many things.
+[Code: , SQL State: 42804]  ERROR: argument of AND must be type boolean, not type integer
+	Useing and without a propper expression.
