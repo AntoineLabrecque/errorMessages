@@ -12,3 +12,6 @@
 [Code: , SQL State: 42883]  ERROR: operator does not exist: integer = sections
   Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
 	Trying to do something with incompatible types.
+[Code: , SQL State: 42P01]  ERROR: invalid reference to FROM-clause entry for table "s"
+  Hint: There is an entry for table "s", but it cannot be referenced from this part of the query.
+	Trying to reference a table that isn't in its scope.
