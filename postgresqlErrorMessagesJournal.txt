@@ -34,3 +34,5 @@
 	Trying to insert too many things.
 [Code: , SQL State: 42804]  ERROR: argument of AND must be type boolean, not type integer
 	Useing and without a propper expression.
+[Code: , SQL State: 23502]  ERROR: column "category_id" contains null values
+	Trying to make something which makes null values in a not null column.
