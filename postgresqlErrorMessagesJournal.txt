@@ -36,3 +36,9 @@
 	Useing and without a propper expression.
 [Code: , SQL State: 23502]  ERROR: column "category_id" contains null values
 	Trying to make something which makes null values in a not null column.
+[Code: , SQL State: 2BP01]  ERROR: cannot drop table category_tuition because other objects depend on it
+  Hint: Use DROP ... CASCADE to drop the dependent objects too.
+	Trying to drop a table that has dependiencies.
+[Code: , SQL State: 2BP01]  ERROR: cannot drop schema lab2 because other objects depend on it
+  Hint: Use DROP ... CASCADE to drop the dependent objects too.
+	Trying to drop a schema that has dependiencies.
