@@ -114,3 +114,9 @@ non-name s.v on left side of :=
 	Trying to assign something to something that isn't a variable.
 expression in go must be function call 
 	Trying to use go without a function call.
+illegal rune literal
+	Using a single quote when it is not appropiate.
+syntax error: unexpected else, expecting }
+	Not having the else on the same line as the closing if brace.
+syntax error: unexpected { at end of statement
+	Previous bad syntax makes things not make sence to the compiler.
