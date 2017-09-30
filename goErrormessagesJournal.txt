@@ -120,3 +120,9 @@ syntax error: unexpected else, expecting }
 	Not having the else on the same line as the closing if brace.
 syntax error: unexpected { at end of statement
 	Previous bad syntax makes things not make sence to the compiler.
+non-constant array bound numberOfTraces
+	Trying to make a variable sized array.
+cannot make type [3]int
+	Trying to initialize a slice with a non-compatible type.
+newline in character literal
+	Having a newline in a character literal.
