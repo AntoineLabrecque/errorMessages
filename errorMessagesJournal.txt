@@ -152,3 +152,5 @@ error: 'Vector' does not name a type
 	Not defining something propperly.
 error: ld returned 1 exit status
 	References could not be matched up.
+error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+	Trying to compile a file that needs the ISO C++ 2011 standard without it.

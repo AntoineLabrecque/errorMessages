@@ -3,7 +3,7 @@ not enough arguments in call to rand.Seed have () want (int64)
 cannot refer to unexported name time.now 
 	Trying to get access to something that doesn't have an initial capital.
 undefined: time.now
-	Trying to call a use something that isn't defined.
+	Trying to call or use something that isn't defined.
 cannot use time.Now() (type time.Time) as type int64 in argument to rand.Seed 
 	Calling a function with the wrong arguments.
 syntax error: unexpected time, expecting comma or ) 
@@ -126,3 +126,5 @@ cannot make type [3]int
 	Trying to initialize a slice with a non-compatible type.
 newline in character literal
 	Having a newline in a character literal.
+use of package assert without selector
+	Having a package specified without refering to anything inside the package.
