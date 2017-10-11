@@ -9,7 +9,7 @@ cannot use time.Now() (type time.Time) as type int64 in argument to rand.Seed
 syntax error: unexpected time, expecting comma or ) 
 	Having what looks like time in the wrong place, or a previously bad syntax makes things not make sence to the compiler here.
 syntax error: non-declaration statement outside function body 
-	Previous bad syntax makes things not make sence to the compiler.
+	Not defining something propperly outside of the function bodies, or previous bad syntax makes things not make sence to the compiler.
 imported and not used: "time" 
 	Not using an import.
 func main must have no arguments and no return values 
@@ -128,3 +128,5 @@ newline in character literal
 	Having a newline in a character literal.
 use of package assert without selector
 	Having a package specified without refering to anything inside the package.
+syntax error: unexpected comma after top level declaration
+	Trying to return more than 1 value, but not having the returns within their parens.
