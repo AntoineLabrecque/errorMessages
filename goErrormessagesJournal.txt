@@ -130,3 +130,7 @@ use of package assert without selector
 	Having a package specified without refering to anything inside the package.
 syntax error: unexpected comma after top level declaration
 	Trying to return more than 1 value, but not having the returns within their parens.
+non-integer slice index e.Value
+	Trying to index with something that is not an integer.
+too many errors
+	The compiler will only show so many errors.
