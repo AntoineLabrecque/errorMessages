@@ -134,3 +134,5 @@ non-integer slice index e.Value
 	Trying to index with something that is not an integer.
 too many errors
 	The compiler will only show so many errors.
+cannot take the address of checkerError.Error()
+	Trying to take the address of something that you can't.
