@@ -44,3 +44,9 @@
 	Trying to drop a schema that has dependiencies.
 ERROR: table "enrollment_assessments" does not exist
 	Trying to use a table that isn't there.
+[Code: , SQL State: 42703]  ERROR: column "employee_id" of relation "phone_numbers" does not exist
+	Trying to get a column from a table that doesn't have it.
+[Code: , SQL State: 42704]  ERROR: type "postalcode" does not exist
+	Trying to use a type that doesn't exist.
+[Code: , SQL State: 42703]  ERROR: column "pay_frequencies" referenced in foreign key constraint does not exist
+	Trying to set up a column that doesn't exist as a foriegn key.
