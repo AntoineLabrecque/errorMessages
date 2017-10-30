@@ -53,3 +53,5 @@ ERROR: table "enrollment_assessments" does not exist
 [Code: , SQL State: 42601]  ERROR: invalid OWNED BY option
   Hint: Specify OWNED BY table.column or OWNED BY NONE.
 	Trying to give ownership to something that doesn't exist.
+[Code: , SQL State: 42710]  ERROR: constraint "propper_address_type" for relation "addresses" already exists
+	Trying to make something where something else already has the same name.
