@@ -1,57 +1,61 @@
-[Code: , SQL State: 42601]  ERROR: syntax error at or near "SELECT"
+ERROR: syntax error at or near "SELECT"
 	Bad syntax.
-[Code: , SQL State: 25P02]  ERROR: current transaction is aborted, commands ignored until end of transaction block
+ERROR: current transaction is aborted, commands ignored until end of transaction block
 	Having a previous uncommited bad transaction prevent future transactions.
-[Code: , SQL State: 42P01]  ERROR: relation "univerity" does not exist
+ERROR: relation "univerity" does not exist
 	Trying to access an entity that doesn't exist.
-[Code: , SQL State: 42501]  ERROR: must be superuser to COPY to or from a file
+ERROR: must be superuser to COPY to or from a file
   Hint: Anyone can COPY to stdout or from stdin. psql's \copy command also works for anyone.
 	Not having the right authorization.
-[Code: , SQL State: 42P01]  ERROR: missing FROM-clause entry for table "g"
+ERROR: missing FROM-clause entry for table "g"
 	Trying to referece a table that isn't in any FROM clauses.
-[Code: , SQL State: 42883]  ERROR: operator does not exist: integer = sections
+ERROR: operator does not exist: integer = sections
   Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
 	Trying to do something with incompatible types.
-[Code: , SQL State: 42P01]  ERROR: invalid reference to FROM-clause entry for table "s"
+ERROR: invalid reference to FROM-clause entry for table "s"
   Hint: There is an entry for table "s", but it cannot be referenced from this part of the query.
 	Trying to reference a table that isn't in its scope.
-[Code: , SQL State: 42703]  ERROR: column "value" does not exist
+ERROR: column "value" does not exist
 	Trying to reference a column that isn't there.
-[Code: , SQL State: 42803]  ERROR: column "s.id" must appear in the GROUP BY clause or be used in an aggregate function
+ERROR: column "s.id" must appear in the GROUP BY clause or be used in an aggregate function
 	Trying to insert from a column one value, but not making sure that only one is given.
-[Code: , SQL State: 22007]  ERROR: conflicting values for "MM" field in formatting string
+ERROR: conflicting values for "MM" field in formatting string
 	Having 'MM' in a conversion string more than once.
-[Code: , SQL State: 23502]  ERROR: null value in column "id" violates not-null constraint
+ERROR: null value in column "id" violates not-null constraint
 	Trying to set a not null column to null.
-[Code: , SQL State: 42601]  ERROR: subquery in FROM must have an alias
+ERROR: subquery in FROM must have an alias
   Hint: For example, FROM (SELECT ...) [AS] foo.
 	Trying to have an inline view without a name.
-[Code: , SQL State: 42601]  ERROR: syntax error at end of input
+ERROR: syntax error at end of input
 	Missing something.
-[Code: , SQL State: 23503]  ERROR: update or delete on table "instructors" violates foreign key constraint "sections_instructor_id_fkey" on table "sections"
+ERROR: update or delete on table "instructors" violates foreign key constraint "sections_instructor_id_fkey" on table "sections"
 	Trying to change a row that is a parent and not allowed.
-[Code: , SQL State: 42601]  ERROR: INSERT has more expressions than target columns
+ERROR: INSERT has more expressions than target columns
 	Trying to insert too many things.
-[Code: , SQL State: 42804]  ERROR: argument of AND must be type boolean, not type integer
+ERROR: argument of AND must be type boolean, not type integer
 	Useing and without a propper expression.
-[Code: , SQL State: 23502]  ERROR: column "category_id" contains null values
+ERROR: column "category_id" contains null values
 	Trying to make something which makes null values in a not null column.
-[Code: , SQL State: 2BP01]  ERROR: cannot drop table category_tuition because other objects depend on it
+ERROR: cannot drop table category_tuition because other objects depend on it
   Hint: Use DROP ... CASCADE to drop the dependent objects too.
 	Trying to drop a table that has dependiencies.
-[Code: , SQL State: 2BP01]  ERROR: cannot drop schema lab2 because other objects depend on it
+ERROR: cannot drop schema lab2 because other objects depend on it
   Hint: Use DROP ... CASCADE to drop the dependent objects too.
 	Trying to drop a schema that has dependiencies.
 ERROR: table "enrollment_assessments" does not exist
 	Trying to use a table that isn't there.
-[Code: , SQL State: 42703]  ERROR: column "employee_id" of relation "phone_numbers" does not exist
+ERROR: column "employee_id" of relation "phone_numbers" does not exist
 	Trying to get a column from a table that doesn't have it.
-[Code: , SQL State: 42704]  ERROR: type "postalcode" does not exist
+ERROR: type "postalcode" does not exist
 	Trying to use a type that doesn't exist.
-[Code: , SQL State: 42703]  ERROR: column "pay_frequencies" referenced in foreign key constraint does not exist
+ERROR: column "pay_frequencies" referenced in foreign key constraint does not exist
 	Trying to set up a column that doesn't exist as a foriegn key.
-[Code: , SQL State: 42601]  ERROR: invalid OWNED BY option
+ERROR: invalid OWNED BY option
   Hint: Specify OWNED BY table.column or OWNED BY NONE.
 	Trying to give ownership to something that doesn't exist.
-[Code: , SQL State: 42710]  ERROR: constraint "propper_address_type" for relation "addresses" already exists
+ERROR: constraint "propper_address_type" for relation "addresses" already exists
 	Trying to make something where something else already has the same name.
+ERROR:  missing data for column "postalcode"
+	Trying to load data into a table that expects more than what is there.
+ERROR:  extra data after last expected column
+	Trying to load data into a table that expects less data than what is there.
