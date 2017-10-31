@@ -59,3 +59,5 @@ ERROR:  missing data for column "postalcode"
 	Trying to load data into a table that expects more than what is there.
 ERROR:  extra data after last expected column
 	Trying to load data into a table that expects less data than what is there.
+ERROR: sequence "performance_squence" does not exist
+	Trying to use a sequence that doesn't exist.
