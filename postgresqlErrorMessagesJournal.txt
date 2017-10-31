@@ -61,3 +61,5 @@ ERROR:  extra data after last expected column
 	Trying to load data into a table that expects less data than what is there.
 ERROR: sequence "performance_squence" does not exist
 	Trying to use a sequence that doesn't exist.
+ERROR: constraint "propper_type" of relation "hire_and_fire_dates" does not exist
+	Trying to reference a constraint on a relation that isn't there.
