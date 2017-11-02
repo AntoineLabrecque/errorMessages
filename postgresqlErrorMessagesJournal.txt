@@ -45,7 +45,7 @@ ERROR: cannot drop schema lab2 because other objects depend on it
 ERROR: table "enrollment_assessments" does not exist
 	Trying to use a table that isn't there.
 ERROR: column "employee_id" of relation "phone_numbers" does not exist
-	Trying to get a column from a table that doesn't have it.
+	Trying to reference a column from a table that doesn't have it.
 ERROR: type "postalcode" does not exist
 	Trying to use a type that doesn't exist.
 ERROR: column "pay_frequencies" referenced in foreign key constraint does not exist
@@ -78,7 +78,7 @@ BEGIN
 	RETURN ;
 END ; $$ LANGUAGE plpgsql ;
 . Expected terminating $$
-	Having one dollar quote without the other.
+	Having one dollar quote without the other, or not surrounding a function with --/ and then /.
 ERROR: cannot begin/end transactions in PL/pgSQL
   Hint: Use a BEGIN block with an EXCEPTION clause instead.
 	Trying to do an end of a transaction in PL/pgSQL.
@@ -86,3 +86,5 @@ ERROR: duplicate key value violates unique constraint "cities_name_key"
 	Trying to insert duplicate values when they are specified as unique.
 ERROR: column l.city does not exist
 	Trying to reference a column that isn't there.
+ERROR: invalid input syntax for type interval: "weekly"
+	Trying to convert to a type the wrong way.
