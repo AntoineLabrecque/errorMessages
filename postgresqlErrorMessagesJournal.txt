@@ -79,3 +79,10 @@ BEGIN
 END ; $$ LANGUAGE plpgsql ;
 . Expected terminating $$
 	Having one dollar quote without the other.
+ERROR: cannot begin/end transactions in PL/pgSQL
+  Hint: Use a BEGIN block with an EXCEPTION clause instead.
+	Trying to do an end of a transaction in PL/pgSQL.
+ERROR: duplicate key value violates unique constraint "cities_name_key"
+	Trying to insert duplicate values when they are specified as unique.
+ERROR: column l.city does not exist
+	Trying to reference a column that isn't there.
