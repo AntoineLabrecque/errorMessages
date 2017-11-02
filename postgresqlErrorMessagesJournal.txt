@@ -88,3 +88,5 @@ ERROR: column l.city does not exist
 	Trying to reference a column that isn't there.
 ERROR: invalid input syntax for type interval: "weekly"
 	Trying to convert to a type the wrong way.
+ERROR: RETURN cannot have a parameter in function with OUT parameters
+	Trying to return when there are out parameters.
