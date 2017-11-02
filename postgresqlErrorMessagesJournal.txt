@@ -63,3 +63,19 @@ ERROR: sequence "performance_squence" does not exist
 	Trying to use a sequence that doesn't exist.
 ERROR: constraint "propper_type" of relation "hire_and_fire_dates" does not exist
 	Trying to reference a constraint on a relation that isn't there.
+ERROR: window function row_number requires an OVER clause
+	Doing row number without over.
+ERROR: function over() does not exist
+  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
+	Trying to use a function that isn't there.
+Unterminated dollar quote started at position 239 in SQL CREATE OR REPLACE FUNCTION load_cities ( ) -- Create a function to populate the cities table.
+RETURNS void AS $ $
+BEGIN
+	INSERT INTO Cities ( name )
+	SELECT row_number ( ) OVER ( )
+	FROM locations_data
+	GROUP BY province ;
+	RETURN ;
+END ; $$ LANGUAGE plpgsql ;
+. Expected terminating $$
+	Having one dollar quote without the other.
