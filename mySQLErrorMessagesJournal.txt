@@ -18,3 +18,5 @@ Error Code: 1241. Operand should contain 1 column(s)
 	Trying to have a subquery with more than 1 column.
 Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`cmpt370_softcert`.`customerservice`, CONSTRAINT `staffNo` FOREIGN KEY (`staffNo`) REFERENCES `staff` (`staffNo`) ON DELETE NO ACTION ON UPDATE CASCADE)
 	Trying to edit a parent row when it is set to NO ACTION.
+Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'usage VARCHAR ( 255 ) , -- char. ADD COLUMN description VARCHAR ( 255 ) , -- cha' at line 3
+	Bad syntax.
