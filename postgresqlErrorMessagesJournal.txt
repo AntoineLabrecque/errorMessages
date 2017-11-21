@@ -97,3 +97,5 @@ ERROR: argument of OR must be type boolean, not type character varying
 	Not having a propper conditional.
 ERROR: column "extention" named in key does not exist
 	Trying to make a constraint with a column that doesn't exist.
+ERROR: "last_performance_rating" is not a known variable
+	Trying to use something as a variable that is not a variable.
