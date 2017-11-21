@@ -90,3 +90,8 @@ ERROR: invalid input syntax for type interval: "weekly"
 	Trying to convert to a type the wrong way.
 ERROR: RETURN cannot have a parameter in function with OUT parameters
 	Trying to return when there are out parameters.
+ERROR: cannot change return type of existing function
+  Hint: Use DROP FUNCTION convert_varchar_to_gender(character varying) first.
+	Trying to declare a function with the same name and parameters as one that already exists, but with a different return value.
+ERROR: argument of OR must be type boolean, not type character varying
+	Not having a propper conditional.
