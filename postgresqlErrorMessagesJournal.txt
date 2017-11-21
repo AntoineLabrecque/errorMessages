@@ -95,3 +95,5 @@ ERROR: cannot change return type of existing function
 	Trying to declare a function with the same name and parameters as one that already exists, but with a different return value.
 ERROR: argument of OR must be type boolean, not type character varying
 	Not having a propper conditional.
+ERROR: column "extention" named in key does not exist
+	Trying to make a constraint with a column that doesn't exist.
