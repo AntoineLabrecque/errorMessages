@@ -99,3 +99,5 @@ ERROR: column "extention" named in key does not exist
 	Trying to make a constraint with a column that doesn't exist.
 ERROR: "last_performance_rating" is not a known variable
 	Trying to use something as a variable that is not a variable.
+ERROR: VACUUM cannot run inside a transaction block
+	Trying to vacuum inside a transaction.
