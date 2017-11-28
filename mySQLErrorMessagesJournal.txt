@@ -20,3 +20,5 @@ Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint
 	Trying to edit a parent row when it is set to NO ACTION.
 Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'usage VARCHAR ( 255 ) , -- char. ADD COLUMN description VARCHAR ( 255 ) , -- cha' at line 3
 	Bad syntax.
+Error Code: 1111. Invalid use of group function
+	Bad syntax.
