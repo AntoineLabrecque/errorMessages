@@ -101,3 +101,6 @@ ERROR: "last_performance_rating" is not a known variable
 	Trying to use something as a variable that is not a variable.
 ERROR: VACUUM cannot run inside a transaction block
 	Trying to vacuum inside a transaction.
+ERROR: column "ratings" is of type integer but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+	Trying to do things with incompattible types.
