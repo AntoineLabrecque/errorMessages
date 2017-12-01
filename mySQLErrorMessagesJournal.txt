@@ -22,3 +22,7 @@ Error Code: 1064. You have an error in your SQL syntax; check the manual that co
 	Bad syntax.
 Error Code: 1111. Invalid use of group function
 	Bad syntax.
+Error Code: 1242. Subquery returns more than 1 row
+	Not ensuring that the subquery won't return more than 1 row.
+Error Code: 1583. Incorrect parameters in the call to native function 'CONCAT'
+	Bad syntax.
