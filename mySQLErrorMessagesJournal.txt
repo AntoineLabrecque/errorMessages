@@ -26,3 +26,5 @@ Error Code: 1242. Subquery returns more than 1 row
 	Not ensuring that the subquery won't return more than 1 row.
 Error Code: 1583. Incorrect parameters in the call to native function 'CONCAT'
 	Bad syntax.
+Error Code: 1052. Column 'id' in where clause is ambiguous
+	Having more than one table with the same column, and not specifying which one to use.
