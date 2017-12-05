@@ -28,3 +28,7 @@ Error Code: 1583. Incorrect parameters in the call to native function 'CONCAT'
 	Bad syntax.
 Error Code: 1052. Column 'id' in where clause is ambiguous
 	Having more than one table with the same column, and not specifying which one to use.
+Error Code: 1146. Table 'cmpt370_softcert.games' doesn't exist
+	Trying to use a table that isn't there.
+Error Code: 1305. FUNCTION cmpt370_softcert.TO_DATE does not exist
+	Trying to use a function that doesn't exist.
