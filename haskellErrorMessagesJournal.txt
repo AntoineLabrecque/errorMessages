@@ -1,4 +1,3 @@
- 
 Variable not in scope: divide :: [t0] -> t
     Trying to use something that isn't there.
 * Couldn't match expected type `Bool'
