@@ -19,10 +19,10 @@ error: parse error on input `->'
     Bad syntax.
 error: Not in scope: type constructor or class `-'
     Using something that is not there.
-error:
-    Illegal operator `-' in type `[a] - > ([a], [a])'
+error: Illegal operator `-' in type `[a] - > ([a], [a])'
       Use TypeOperators to allow operators in types
     Using something wrong.
-error:
-    Operator applied to too few arguments: [a] - > ([a], [a])
+error: Operator applied to too few arguments: [a] - > ([a], [a])
     Using something wrong.
+* No instance for (Eq a) arising from an operator section
+    Types not matching.
