@@ -31,3 +31,6 @@ error:
 error:
     * Couldn't match expected type `a' with actual type `[a]'
 	Doing something with inncompatable types.
+error:
+    * Occurs check: cannot construct the infinite type: a1 ~ [a1]
+	Not defining a recursive function right.
