@@ -28,3 +28,6 @@ error:
 	Using something wrong.
 * No instance for (Eq a) arising from an operator section
 	Types not matching.
+error:
+    * Couldn't match expected type `a' with actual type `[a]'
+	Doing something with inncompatable types.
