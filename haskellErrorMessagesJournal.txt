@@ -34,3 +34,5 @@ error:
 error:
     * Occurs check: cannot construct the infinite type: a1 ~ [a1]
 	Not defining a recursive function right.
+error: Parse error in pattern: divide'
+	Bad syntax.
