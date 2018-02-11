@@ -36,3 +36,12 @@ error:
 	Not defining a recursive function right.
 error: Parse error in pattern: divide'
 	Bad syntax.
+error:
+    Pattern syntax in expression context: ~hasInvalidCharacters
+	Having something in the wrong place.
+error:
+    * Non type-variable argument in the constraint: Num ([a1], [a1])
+	The type checker is confused.
+error:
+    * No instance for (Num ([a1], [a1])) arising from a use of `+'
+	Types not matching.
