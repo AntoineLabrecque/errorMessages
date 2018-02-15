@@ -45,3 +45,7 @@ error:
 error:
     * No instance for (Num ([a1], [a1])) arising from a use of `+'
 	Types not matching.
+error:
+    * Expecting one more argument to `Num'
+      Expected a type, but `Num' has kind `* -> Constraint'
+	Not defining the type signature properly.
