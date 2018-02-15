@@ -49,3 +49,6 @@ error:
     * Expecting one more argument to `Num'
       Expected a type, but `Num' has kind `* -> Constraint'
 	Not defining the type signature properly.
+error:
+    * Data constructor not in scope: Sum :: [a] -> a
+	Trying to use something that you don't have access to.
