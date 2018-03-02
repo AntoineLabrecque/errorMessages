@@ -5,15 +5,6 @@ Variable not in scope: divide :: [t0] -> t
 	Trying to match inncompatible types.
 * Ambiguous type variable `t0' arising from a use of `=='
       prevents the constraint `(Eq t0)' from being solved.
-      Probable fix: use a type annotation to specify what `t0' should be.
-      These potential instances exist:
-        instance Eq Ordering -- Defined in `GHC.Classes'
-        instance Eq Integer
-          -- Defined in `integer-gmp-1.0.0.1:GHC.Integer.Type'
-        instance Eq a => Eq (Maybe a) -- Defined in `GHC.Base'
-        ...plus 22 others
-        ...plus 8 instances involving out-of-scope types
-        (use -fprint-potential-instances to see them all)
 	The type checker is confused.
 error: parse error on input `->'
 	Bad syntax.
@@ -56,3 +47,20 @@ error:
     * Could not deduce (Eq a) arising from a use of `=='
       from the context: Num a
 	The type checker is confused.
+error:
+    Illegal binding of built-in syntax: (,,)
+	Bad syntax.
+error:
+    Cannot parse data constructor in a data/newtype declaration: (Int Int Int Int Int Int Int Int Int)
+	Not defining a data/newtype properly.
+error:
+    * No instance for (Num
+                         (t0 -> t1 -> t2 -> t3 -> t4 -> t5 -> t6 -> t7 -> Position))
+        arising from the literal `0'
+	Types not matching.
+error:
+    * Ambiguous type variable `t0' arising from the literal `1'
+      prevents the constraint `(Num t0)' from being solved.
+	The type checker is confused.
+error: Not a data constructor: `a'
+	Trying to define things impropperly.
