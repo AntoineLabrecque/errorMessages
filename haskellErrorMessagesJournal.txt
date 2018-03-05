@@ -64,3 +64,25 @@ error:
 	The type checker is confused.
 error: Not a data constructor: `a'
 	Trying to define things impropperly.
+parse error (possibly incorrect indentation or mismatched brackets)
+	Bad syntax.
+error: Empty 'do' block
+	Having a do block with nothing.
+error:
+    * The constructor `A' should have 1 argument, but has been given none
+	Not using a datatype properly.
+error: unterminated `{-'
+	Not having matching block comments.
+error:
+    * Expecting one fewer arguments to `(Char, Char, Char)'
+      Expected kind `* -> *', but `(Char, Char, Char)' has kind `*'
+	Not defining a type properly.
+error:
+    lexical error in string/character literal at character '\n'
+	Having a newline where it looks like there shouldn't be one.
+error:
+    Illegal tuple section: use TupleSections
+	Not formatting a tuple properly.
+error:
+    The last statement in a 'do' block must be an expression
+	Not having the last statement in a do block be an expression.
