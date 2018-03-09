@@ -86,3 +86,10 @@ error:
 error:
     The last statement in a 'do' block must be an expression
 	Not having the last statement in a do block be an expression.
+error:
+    The type signature for `ack' lacks an accompanying binding
+	Not defining a function, but only its type signature.
+error:
+    * Illegal qualified type:
+        Integral b => b -> Integral c => c -> Integer
+	Not defining a type properly.
