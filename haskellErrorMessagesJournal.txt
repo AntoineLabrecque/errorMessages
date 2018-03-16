@@ -93,3 +93,17 @@ error:
     * Illegal qualified type:
         Integral b => b -> Integral c => c -> Integer
 	Not defining a type properly.
+error: Not in scope: data constructor `SM340'
+	Using a data constructor where it shouldn't be used.
+error:
+    * Illegal type signature in instance declaration:
+        (>>=) :: SM340 s a -> (a -> SM340 s b) -> SM340 s b
+      (Use InstanceSigs to allow this)
+	Not declaring a type signature right for the matching function.
+error:
+    * Found hole: _ :: s
+	Using _ where it shouldn't be used.
+error:
+    Illegal view pattern:  _ -> (r, _)
+    Use ViewPatterns to enable view patterns
+	Not using a pattern properly.
