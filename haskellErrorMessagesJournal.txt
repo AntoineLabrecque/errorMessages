@@ -107,3 +107,12 @@ error:
     Illegal view pattern:  _ -> (r, _)
     Use ViewPatterns to enable view patterns
 	Not using a pattern properly.
+error:
+    Equations for `sumTree' have different numbers of arguments
+	Not defining a function consistently.
+error:
+    Duplicate type signatures for `list2tree'
+	Haveing a type signature for a function more than once.
+error:
+    Multiple declarations of `list2tree'
+	Having more than one definition for a function.
