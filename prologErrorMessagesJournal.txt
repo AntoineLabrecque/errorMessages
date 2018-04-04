@@ -1,2 +1,4 @@
 Syntax error: Operator expected
 	Missing something.
+Syntax error: Operator priority clash
+	Having different functions together that don't go together.
