@@ -1,7 +1,7 @@
 :: Antoine Labrecque
 
-g++ -c protectedChar.cpp
-g++ -c item.cpp
-g++ -c Node.cpp
-g++ -c list.cpp
-g++ -c errorMessagesJournalApp.cpp
+g++ -Wextra -Wall -pedantic -c protectedChar.cpp
+g++ -Wextra -Wall -pedantic -c item.cpp
+g++ -Wextra -Wall -pedantic -c Node.cpp
+g++ -Wextra -Wall -pedantic -c list.cpp
+g++ -Wextra -Wall -pedantic -c errorMessagesJournalApp.cpp
