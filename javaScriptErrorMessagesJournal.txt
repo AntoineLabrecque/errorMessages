@@ -1,2 +1,6 @@
 Error: [$parse:syntax] Syntax Error: Token '(' invalid key at column 2 of the expression [{(point.value)}] starting at [(point.value)}].
 	Having something where it looks like it shouldn't be.
+Error: [$parse:syntax] Syntax Error: Token '}' is unexpected, expecting [:] at column 15 of the expression [{[point.value]}] starting at [}].
+	Having something where it looks like something else should be there or something broke earlier.
+Error: [$parse:syntax] Syntax Error: Token ':' is an unexpected token at column 12 of the expression ['has-error': ahuPointForm['point'+$index].classList.contains('ng-invalid')] starting at [: ahuPointForm['point'+$index].classList.contains('ng-invalid')].
+	Having something where it seems like it should not be, or something broke earlier.
