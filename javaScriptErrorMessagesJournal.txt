@@ -1,0 +1,2 @@
+Error: [$parse:syntax] Syntax Error: Token '(' invalid key at column 2 of the expression [{(point.value)}] starting at [(point.value)}].
+	Having something where it looks like it shouldn't be.
