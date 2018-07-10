@@ -1,0 +1,2 @@
+Incorrect syntax near the keyword 'FROM'.
+	Not having anything in the select.
