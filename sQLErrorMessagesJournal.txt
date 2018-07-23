@@ -6,3 +6,7 @@ Incorrect syntax near ')'.
 	Bad syntax.
 Must declare the scalar variable "@PermissionId".
 	Trying to use a variable without defining it.
+Invalid object name 'TimeSeries.Fault.Fault'.
+	Not using a correct object name.
+Column 'AuthZ.Operation.Id' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
+	Trying to have a non-aggregate thing with aggregate stuff.
