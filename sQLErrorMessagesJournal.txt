@@ -10,3 +10,5 @@ Invalid object name 'TimeSeries.Fault.Fault'.
 	Not using a correct object name.
 Column 'AuthZ.Operation.Id' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
 	Trying to have a non-aggregate thing with aggregate stuff.
+Violation of UNIQUE KEY constraint 'UX_OperationFeature__OperationId_FeatureId'. Cannot insert duplicate key in object 'AuthZ.OperationFeature'. The duplicate key value is (74, 1).
+	Trying to insert duplicate data into a unique place.
