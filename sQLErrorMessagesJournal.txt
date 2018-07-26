@@ -14,3 +14,7 @@ Violation of UNIQUE KEY constraint 'UX_OperationFeature__OperationId_FeatureId'.
 	Trying to insert duplicate data into a unique place.
 Conversion failed when converting the nvarchar value '0.15' to data type int.
 	Not converting types right.
+Argument data type xml is invalid for argument 1 of like function.
+	Using a function with a wrong type.
+The data types xml and varchar are incompatible in the equal to operator.
+	Trying to do something with inncompatiable types.
