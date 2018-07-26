@@ -12,3 +12,5 @@ Column 'AuthZ.Operation.Id' is invalid in the select list because it is not cont
 	Trying to have a non-aggregate thing with aggregate stuff.
 Violation of UNIQUE KEY constraint 'UX_OperationFeature__OperationId_FeatureId'. Cannot insert duplicate key in object 'AuthZ.OperationFeature'. The duplicate key value is (74, 1).
 	Trying to insert duplicate data into a unique place.
+Conversion failed when converting the nvarchar value '0.15' to data type int.
+	Not converting types right.
