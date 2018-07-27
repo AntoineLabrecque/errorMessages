@@ -4,3 +4,7 @@ Error: [$parse:syntax] Syntax Error: Token '}' is unexpected, expecting [:] at c
 	Having something where it looks like something else should be there or something broke earlier.
 Error: [$parse:syntax] Syntax Error: Token ':' is an unexpected token at column 12 of the expression ['has-error': ahuPointForm['point'+$index].classList.contains('ng-invalid')] starting at [: ahuPointForm['point'+$index].classList.contains('ng-invalid')].
 	Having something where it seems like it should not be, or something broke earlier.
+SyntaxError: /home/codewarrior/index.js: Unexpected token (18:16)
+	Having something where it looks like it doesn't belong.
+SyntaxError: /home/codewarrior/index.js: Unexpected token, expected ; (25:13)
+	Having something where it looks like something else should be.
