@@ -13,8 +13,18 @@ Column 'AuthZ.Operation.Id' is invalid in the select list because it is not cont
 Violation of UNIQUE KEY constraint 'UX_OperationFeature__OperationId_FeatureId'. Cannot insert duplicate key in object 'AuthZ.OperationFeature'. The duplicate key value is (74, 1).
 	Trying to insert duplicate data into a unique place.
 Conversion failed when converting the nvarchar value '0.15' to data type int.
-	Not converting types right.
+	Not converting a specific piece of data right.
 Argument data type xml is invalid for argument 1 of like function.
 	Using a function with a wrong type.
 The data types xml and varchar are incompatible in the equal to operator.
 	Trying to do something with inncompatiable types.
+Conversion failed when converting from a character string to uniqueidentifier.
+	Not converting types right.
+Error converting string value '758K' into data type int using culture ''.
+	Not converting a specific piece of data right.
+Error converting data type varchar to numeric.
+	Not converting at least some data right.
+Conversion failed when converting date and/or time from character string.
+	Not converting at least some data right.
+Insufficient result space to convert uniqueidentifier value to char.
+	Not converting types right.

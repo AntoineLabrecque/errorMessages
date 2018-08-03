@@ -8,3 +8,5 @@ SyntaxError: /home/codewarrior/index.js: Unexpected token (18:16)
 	Having something where it looks like it doesn't belong.
 SyntaxError: /home/codewarrior/index.js: Unexpected token, expected ; (25:13)
 	Having something where it looks like something else should be.
+SyntaxError: Invalid regular expression: /.*(/: Unterminated group
+	Having a regular expression with an unterminated group.
