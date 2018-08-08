@@ -32,3 +32,5 @@ The multi-part identifier "rp.Key" could not be bound.
 	Trying to access something without saying where it comes from.
 Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
 	Returning more than one thing when only one thing is expected.
+An aggregate may not appear in the WHERE clause unless it is in a subquery contained in a HAVING clause or a select list, and the column being aggregated is an outer reference.
+	Putting an aggregate function in the where clause that is not in a having clause or select list with the column being aggregated is an outer reference.
