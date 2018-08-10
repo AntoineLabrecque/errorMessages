@@ -10,3 +10,7 @@ SyntaxError: /home/codewarrior/index.js: Unexpected token, expected ; (25:13)
 	Having something where it looks like something else should be.
 SyntaxError: Invalid regular expression: /.*(/: Unterminated group
 	Having a regular expression with an unterminated group.
+SyntaxError: Unexpected identifier
+	Having an identifier that is not declaired.
+SyntaxError: Invalid or unexpected token
+	Having a token that is not valid or where it looks like something else should be.
