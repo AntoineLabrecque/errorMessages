@@ -14,3 +14,5 @@ SyntaxError: Unexpected identifier
 	Having an identifier that is not declaired.
 SyntaxError: Invalid or unexpected token
 	Having a token that is not valid or where it looks like something else should be.
+Error: [$parse:syntax] Syntax Error: Token ',' not a primary expression at column 11 of the expression [{severity:, category:'comfort'}] starting at [, category:'comfort'}].
+	Having something where it looks like something else should be.
