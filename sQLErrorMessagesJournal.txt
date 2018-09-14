@@ -36,3 +36,5 @@ An aggregate may not appear in the WHERE clause unless it is in a subquery conta
 	Putting an aggregate function in the where clause that is not in a having clause or select list with the column being aggregated is an outer reference.
 User, group, or role 'pulse' already exists in the current database.
 	Trying to have duplicate things that need to be unique.
+Ambiguous column name 'BindingId'.
+	Trying to use a column without removing ambiguity of which one it is.
