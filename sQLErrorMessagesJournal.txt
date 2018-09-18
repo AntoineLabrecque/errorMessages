@@ -46,3 +46,9 @@ The cursor is already open.
 	Trying to open a cursor that is already open.
 Cursorfetch: The number of variables declared in the INTO list must match that of selected columns.
 	Trying to fetch from a cursor into a number of variables that doesn't match the number of columns.
+Implicit conversion from data type datetime to float is not allowed. Use the CONVERT function to run this query.
+	Trying to convert things implicitly that can't be.
+The DELETE statement conflicted with the REFERENCE constraint "FK_FaultNotificationCustom_ConditionType_ConditionId". The conflict occurred in database "TimeSeries", table "Notification.FaultNotificationCustom", column 'ConditionId'.
+	Trying to delete things that are referenced.
+A cursor with the name 'bindingId_cursor' does not exist.
+	Trying to use a cursor that doesn't exist.
