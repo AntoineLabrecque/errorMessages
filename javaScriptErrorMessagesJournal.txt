@@ -18,3 +18,5 @@ Error: [$parse:syntax] Syntax Error: Token ',' not a primary expression at colum
 	Having something where it looks like something else should be.
 SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee/redux/pages/site-overview/charts/charts.helpers.js: "chartPoints" is read-only
 	Trying to assing to something that is constant.
+SyntaxError: missing ) after argument list
+	Not haveing a closing brace after a list.

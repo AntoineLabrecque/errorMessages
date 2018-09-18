@@ -38,3 +38,11 @@ User, group, or role 'pulse' already exists in the current database.
 	Trying to have duplicate things that need to be unique.
 Ambiguous column name 'BindingId'.
 	Trying to use a column without removing ambiguity of which one it is.
+The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+	Doing a rollback without a begin.
+A cursor with the name 'conditionId_cursor' already exists.
+	Trying to name a cursor something that is taken.
+The cursor is already open.
+	Trying to open a cursor that is already open.
+Cursorfetch: The number of variables declared in the INTO list must match that of selected columns.
+	Trying to fetch from a cursor into a number of variables that doesn't match the number of columns.
