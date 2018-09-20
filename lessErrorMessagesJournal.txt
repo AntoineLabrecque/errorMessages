@@ -1,0 +1,4 @@
+Variable @email-reports-email-input-border-style is undefined
+	Trying to use a variable without defining it.
+Unrecognised input. Possibly missing opening '{'
+	Having something in the wrong place.
