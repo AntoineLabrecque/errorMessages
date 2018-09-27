@@ -20,3 +20,8 @@ SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee/redux/pages/site-ove
 	Trying to assing to something that is constant.
 SyntaxError: missing ) after argument list
 	Not haveing a closing brace after a list.
+SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/app/redux/pages/notifications/notifications.reducer.js: `getLoading` has already been exported. Exported identifiers must be unique.
+	Trying to export something by the same name as something else that is being exported.
+ERROR in ./app/components/pages/settings/notifications/create-custom-modal/create-custom-modal.js
+Module not found: Error: Can't resolve '../../../../redux/pages/notifications/notifications.reducer'
+	Trying to import from somewhere that can't be found.
