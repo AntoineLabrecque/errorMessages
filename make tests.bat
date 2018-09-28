@@ -7,7 +7,6 @@ g++ -Wall -Wextra -pedantic -c list.cpp
 g++ -Wall -Wextra -pedantic -c tests.cpp
 g++ -Wall -Wextra -pedantic -o tests.exe tests.o list.o Node.o item.o protectedChar.o
 
-for %%source in ( forfiles /m *.cpp /c "echo @fname" ) do
-(
-    if ( dir /b %%source.* /o-d
+for %%S in ( *.cpp ) do (
+    if `dir /b %%~nS.* /o-d` == %%S echo "hi"
 )
