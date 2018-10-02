@@ -52,3 +52,5 @@ The DELETE statement conflicted with the REFERENCE constraint "FK_FaultNotificat
 	Trying to delete things that are referenced.
 A cursor with the name 'bindingId_cursor' does not exist.
 	Trying to use a cursor that doesn't exist.
+Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+	Trying to perform and aggregate function when it is not allowed.
