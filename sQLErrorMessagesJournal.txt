@@ -56,3 +56,5 @@ Cannot perform an aggregate function on an expression containing an aggregate or
 	Trying to perform and aggregate function when it is not allowed.
 The ORDER BY clause is invalid in views, inline functions, derived tables, subqueries, and common table expressions, unless TOP, OFFSET or FOR XML is also specified.
 	Not using order by right.
+Could not find stored procedure 'boiler'.
+	Trying to use a procedure that doesn't exist.
