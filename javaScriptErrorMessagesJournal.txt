@@ -25,3 +25,9 @@ SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/app/redux/pages/notifications/no
 ERROR in ./app/components/pages/settings/notifications/create-custom-modal/create-custom-modal.js
 Module not found: Error: Can't resolve '../../../../redux/pages/notifications/notifications.reducer'
 	Trying to import from somewhere that can't be found.
+ERROR in ./aee/redux/pages/multi-site/multi-site.reducer.js
+Module build failed: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee/redux/pages/multi-site/multi-site.reducer.js: Duplicate declaration "objA"
+	Declaring something that already exists.
+ERROR in ./app/redux/features/equipment-tags/equipment-tags.reducer.js
+Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/app/redux/features/equipment-tags/equipment-tags.reducer.js: default is a reserved word (15:9)
+	Trying to use a reserved word for something other than its purpose.
