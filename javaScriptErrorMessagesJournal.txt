@@ -31,3 +31,6 @@ Module build failed: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee/redux/pages/
 ERROR in ./app/redux/features/equipment-tags/equipment-tags.reducer.js
 Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/app/redux/features/equipment-tags/equipment-tags.reducer.js: default is a reserved word (15:9)
 	Trying to use a reserved word for something other than its purpose.
+ERROR in ./aee/redux/pages/multi-site/multi-site.reducer.js
+Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee/redux/pages/multi-site/multi-site.reducer.js: 'import' and 'export' may only appear at the top level (441:0)
+	Having import or export somewhere other than the top level.
