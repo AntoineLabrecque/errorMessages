@@ -1,5 +1,5 @@
 :: Antoine Labrecque
-setlocal enableextensions
+setlocal enableextensions enabledelayedexpansion
 if "%1" == "burninate" (
     rm tests.exe errorMessagesJournalApp.exe
     goto :clean
@@ -51,8 +51,15 @@ if "%sources%" == "errorMessagesJournalApp.cpp" (
     :protectedCharDependency
     set "sources=%sources% protectedChar.cpp"
 )
-for /f %%S in ( "%sources%" ) do (
-    if not `"dir /b %%~nS.o %%~nS.h %%S /o-d"` == "%%~nS.o" (
+for /f %%S in ( 'dir /b %sources%' ) do (
+    for /f %%T in ( tmp.txt ) do (
+        echo ERROR: file tmp.txt exists!
+        exit /b
+    )
+    dir /b /o-d %%~nS.o %%~nS.h %%S > tmp.txt
+    set /p tmp= < tmp.txt
+    rm tmp.txt
+    if not "!tmp!" == "%%~nS.o" (
         g++ -Wall -Wextra -pedantic -c %%S
     )
 )
