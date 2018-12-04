@@ -58,3 +58,5 @@ The ORDER BY clause is invalid in views, inline functions, derived tables, subqu
 	Not using order by right.
 Could not find stored procedure 'boiler'.
 	Trying to use a procedure that doesn't exist.
+Database 'timeSeries_test' does not exist. Make sure that the name is entered correctly.
+	Trying to use a database that isn't there.
