@@ -34,3 +34,5 @@ Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/app/redux/f
 ERROR in ./aee/redux/pages/multi-site/multi-site.reducer.js
 Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee/redux/pages/multi-site/multi-site.reducer.js: 'import' and 'export' may only appear at the top level (441:0)
 	Having import or export somewhere other than the top level.
+Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/src/app/redux/features/site-selector/site-selector.reducer.js: Only one default export allowed per module. (54:0)
+	Trying to export more than one thing by default.
