@@ -36,3 +36,5 @@ Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/aee
 	Having import or export somewhere other than the top level.
 Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/src/app/redux/features/site-selector/site-selector.reducer.js: Only one default export allowed per module. (54:0)
 	Trying to export more than one thing by default.
+Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/fdd/redux/pages/faults/fault-definitions/fault-definitions.reducer.js: Invalid left-hand side in assignment expression (330:12)
+	Trying to assign to something that isn't a variable.
