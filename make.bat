@@ -1,12 +1,12 @@
 :: Antoine Labrecque
 setlocal enableextensions enabledelayedexpansion
 if "%1" == "burninate" (
-    rm tests.exe errorMessagesJournalApp.exe
+    del tests.exe errorMessagesJournalApp.exe
     goto :clean
     exit /b
 ) else if "%1" == "clean" (
     :clean
-    rm -d tests.o errorMessagesJournalApp.o list.o Node.o item.o protectedChar.o
+    del tests.o errorMessagesJournalApp.o list.o Node.o item.o protectedChar.o
     exit /b
 ) else if "%1" == "run" (
     set "run=1"
@@ -58,7 +58,7 @@ for /f %%S in ( 'dir /b %sources%' ) do (
     )
     dir /b /o-d %%~nS.o %%~nS.h %%S > tmp.txt
     set /p tmp= < tmp.txt
-    rm tmp.txt
+    del tmp.txt
     if not "!tmp!" == "%%~nS.o" (
         g++ -Wall -Wextra -pedantic -c %%S
     )
