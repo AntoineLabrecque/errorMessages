@@ -60,3 +60,9 @@ Could not find stored procedure 'boiler'.
 	Trying to use a procedure that doesn't exist.
 Database 'timeSeries_test' does not exist. Make sure that the name is entered correctly.
 	Trying to use a database that isn't there.
+Cannot insert the value NULL into column 'CloudApiKey', table 'TimeSeries.SiteModel.Site'; column does not allow nulls. INSERT fails.
+	Trying to insert NULL where it is not allowed.
+The INSERT statement conflicted with the CHECK constraint "CK_SiteModel_Site_SiteGuidIsRequiredForActiveSites". The conflict occurred in database "TimeSeries", table "SiteModel.Site".
+	Trying to insert in a way that a constraint doesn't allow.
+Cannot insert duplicate key row in object 'SiteModel.Site' with unique index 'UX_Site__SiteGuid'. The duplicate key value is (4791386d-f884-4dd4-91b5-565ac8145972).
+	Trying to insert duplicate data where there is a unique index.
