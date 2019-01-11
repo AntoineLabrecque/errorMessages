@@ -32,9 +32,11 @@ if "%1" == "tests" (
 set "sources=errorMessagesJournalApp.cpp"
 :buildCheck
 if "%sources%" == "errorMessagesJournalApp.cpp" (
+    set "app=1"
     goto :listDependency
     exit /b
 ) else if "%sources%" == "tests.cpp" (
+    set "test=1"
     goto :listDependency
     exit /b
 ) else if "%sources%" == "list.cpp" (
@@ -63,8 +65,11 @@ for /f %%S in ( 'dir /b %sources%' ) do (
         g++ -Wall -Wextra -pedantic -c %%S
     )
 )
-
-::g++ -Wall -Wextra -pedantic -o tests.exe tests.o list.o Node.o item.o protectedChar.o
+if "%app%" == "1" (
+    g++ -Wall -Wextra -pedantic -o errorMessagesJournalApp.exe errorMessagesJournalApp.o list.o Node.o item.o protectedChar.o
+) else if "%test%" == "1" (
+    g++ -Wall -Wextra -pedantic -o tests.exe tests.o list.o Node.o item.o protectedChar.o
+)
 if "%run%" == "1" (
     tests.exe
 )

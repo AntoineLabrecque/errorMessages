@@ -38,3 +38,5 @@ Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-core/src/app/red
 	Trying to export more than one thing by default.
 Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/fdd/redux/pages/faults/fault-definitions/fault-definitions.reducer.js: Invalid left-hand side in assignment expression (330:12)
 	Trying to assign to something that isn't a variable.
+Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-zones-module/zoneControl/components/single-site/scheduling/air-handlers/air-handlers.service.js: Identifier directly after number (42:34)
+	Not having a separator between a number and an identity.
