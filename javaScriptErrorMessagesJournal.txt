@@ -40,3 +40,9 @@ Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-lobos-module/fdd
 	Trying to assign to something that isn't a variable.
 Module build failed: SyntaxError: c:/Dev/YardiPulse/yardi-pulse-zones-module/zoneControl/components/single-site/scheduling/air-handlers/air-handlers.service.js: Identifier directly after number (42:34)
 	Not having a separator between a number and an identity.
+Module build failed: SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.lobos.content/fdd/pages/faults/fault-definitions/react-components/ConditionBindingParamList.jsx: Unterminated JSX contents (23:17)
+	Not closing an html tag.
+Module build failed: SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.lobos.content/fdd/pages/faults/fault-definitions/react-components/ConditionBindingParamList.jsx: Adjacent JSX elements must be wrapped in an enclosing tag (17:12)
+	Not putting adjacent html elements in enclosing tags.
+Module build failed: SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.lobos.content/fdd/pages/faults/fault-definitions/react-components/ConditionBindingParamList.jsx: Expected corresponding JSX closing tag for <yp-spinner> (16:58)
+	Not closing an html tag propperly.
