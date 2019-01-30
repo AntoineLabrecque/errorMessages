@@ -66,3 +66,11 @@ The INSERT statement conflicted with the CHECK constraint "CK_SiteModel_Site_Sit
 	Trying to insert in a way that a constraint doesn't allow.
 Cannot insert duplicate key row in object 'SiteModel.Site' with unique index 'UX_Site__SiteGuid'. The duplicate key value is (4791386d-f884-4dd4-91b5-565ac8145972).
 	Trying to insert duplicate data where there is a unique index.
+Column, parameter, or variable #35: Cannot find data type BLOB.
+	Trying to use a data type that doesn't exist.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+	Bad syntax.
+Default FILESTREAM filegroup is not available in database 'TimeSeries'.
+	Trying to use a filegroup in a database where it is not available.
+The filegroup already has the 'DEFAULT' property set.
+	Trying to make a filegroup the default when it is already the default.
