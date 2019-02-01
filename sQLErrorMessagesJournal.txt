@@ -78,3 +78,13 @@ FILESTREAM feature is disabled.
 	Trying to do filestream stuff when it is disabled.
 Column names in each table must be unique. Column name 'Image' in table 'SiteModel.Site' is specified more than once.
 	Trying to make more than one column with the same name.
+Cannot find the object "SiteModel.Site" because it does not exist or you do not have permissions.
+	Trying to use an object where it doesn't exist or without having permissions.
+Invalid column name 'Image'.
+	Trying to use something as a column name that isn't.
+The definition for column 'SiteId' must include a data type.
+	Not including a data type when making a column.
+Cannot insert explicit value for identity column in table 'Site' when IDENTITY_INSERT is set to OFF.
+	Trying to insert a literal primary key when you are not allowed to.
+Table 'SiteModel.SiteImage' does not have the identity property. Cannot perform SET operation.
+	Trying to set an identity property when there is none.
