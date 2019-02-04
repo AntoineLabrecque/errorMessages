@@ -88,3 +88,5 @@ Cannot insert explicit value for identity column in table 'Site' when IDENTITY_I
 	Trying to insert a literal primary key when you are not allowed to.
 Table 'SiteModel.SiteImage' does not have the identity property. Cannot perform SET operation.
 	Trying to set an identity property when there is none.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__SiteImage__SiteI__1F6C6554". The conflict occurred in database "TimeSeries", table "SiteModel.Site", column 'SiteId'.
+	Trying to insert something without setting up the foreign key properly.
