@@ -1,0 +1,8 @@
+Syntax Error: Token ',' is an unexpected token at column 87 of the expression [$ctrl.getPointValue(chiller.tonnage) | setDecimal: $ctrl.getPointUnit(chiller.tonnage), true] starting at [, true].
+	Having something where it shouldn't be.
+Syntax Error: Token ',' is unexpected, expecting [)] at column 88 of the expression [$ctrl.getPointValue(chiller.tonnage) | setDecimal: ($ctrl.getPointUnit(chiller.tonnage), true)] starting at [, true)].
+	Having something where it looks like something else should be.
+Syntax Error: Token '(' is not a valid identifier at column 40 of the expression [$ctrl.getPointValue(chiller.tonnage) | (setDecimal: $ctrl.getPointUnit(chiller.tonnage), true)] starting at [(setDecimal: $ctrl.getPointUnit(chiller.tonnage), true)].
+	Having something where it shouldn't be.
+Unexpected end of expression: { value: $ctrl.getPointValue(chiller.flow) } | precision: { unit: 0
+	Bad Syntax.
