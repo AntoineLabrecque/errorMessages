@@ -6,3 +6,5 @@ Syntax Error: Token '(' is not a valid identifier at column 40 of the expression
 	Having something where it shouldn't be.
 Unexpected end of expression: { value: $ctrl.getPointValue(chiller.flow) } | precision: { unit: 0
 	Bad Syntax.
+Syntax Error: Token ')' not a primary expression at column 2 of the expression [() => ''] starting at [) => ''].
+	Having something where it looks like something else should be.
