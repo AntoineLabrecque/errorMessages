@@ -46,3 +46,5 @@ Module build failed: SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.
 	Not putting adjacent html elements in enclosing tags.
 Module build failed: SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.lobos.content/fdd/pages/faults/fault-definitions/react-components/ConditionBindingParamList.jsx: Expected corresponding JSX closing tag for <yp-spinner> (16:58)
 	Not closing an html tag propperly.
+SyntaxError: c:/Dev/YardiPulse/dev/ysi.pulse.content/src/app/components/shared/bb-chart/bb-chart.js: Invalid left-hand side in arrow function parameters (140:92)
+	Having something where it looks like it should not be.
