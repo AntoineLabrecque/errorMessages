@@ -48,3 +48,5 @@ Module build failed: SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.
 	Not closing an html tag propperly.
 SyntaxError: c:/Dev/YardiPulse/dev/ysi.pulse.content/src/app/components/shared/bb-chart/bb-chart.js: Invalid left-hand side in arrow function parameters (140:92)
 	Having something where it looks like it should not be.
+ENOENT: no such file or directory, open 'c:\Dev\YardiPulse\dev\plugins\lobos\ysi.pulse.lobos.content\aee\pages\airHandlers\multiple\overview\ahu-values-summary\ahu-values-summary.js'
+	Trying to use a file that isn't there.
