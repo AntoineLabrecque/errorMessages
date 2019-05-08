@@ -6,3 +6,5 @@ Unrecognised input
 	Having something in the wrong place.
 Missing closing ')'
 	Having a '(' without a closing one to match.
+Unrecognised input. Possibly missing something
+	Missing a closing syntax to an open syntax.

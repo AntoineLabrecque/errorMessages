@@ -55,3 +55,5 @@ SyntaxError: c:/Dev/YardiPulse/dev/plugins/lobos/ysi.pulse.lobos.content/aee/red
 Error: ./src/app/components/pages/admin/manage-sites/manage-sites.component.js
 Module not found: Empty dependency (no request)
 	Importing something without saying where it comes from.
+SyntaxError: c:/Dev/YardiPulse/dev/plugins/cc/ysi.pulse.cc.content/zoneControl/components/single-site/zone/detail/filter-state/filter-state.js: Unterminated string constant (68:79)
+	Having a string without its closing quote.
