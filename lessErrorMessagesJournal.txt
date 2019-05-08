@@ -4,3 +4,5 @@ Unrecognised input. Possibly missing opening '{'
 	Having something in the wrong place.
 Unrecognised input
 	Having something in the wrong place.
+Missing closing ')'
+	Having a '(' without a closing one to match.
