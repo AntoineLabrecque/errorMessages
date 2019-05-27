@@ -90,3 +90,7 @@ Table 'SiteModel.SiteImage' does not have the identity property. Cannot perform 
 	Trying to set an identity property when there is none.
 The INSERT statement conflicted with the FOREIGN KEY constraint "FK__SiteImage__SiteI__1F6C6554". The conflict occurred in database "TimeSeries", table "SiteModel.Site", column 'SiteId'.
 	Trying to insert something without setting up the foreign key properly.
+There is already an object named 'elementaccessrolexref' in the database.
+	Trying to create an object with a name that is taken.
+The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.
+	Having a COMMIT without a BEGIN TRANSACTION.
