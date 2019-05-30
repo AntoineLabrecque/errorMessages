@@ -57,3 +57,7 @@ Module not found: Empty dependency (no request)
 	Importing something without saying where it comes from.
 SyntaxError: c:/Dev/YardiPulse/dev/plugins/cc/ysi.pulse.cc.content/zoneControl/components/single-site/zone/detail/filter-state/filter-state.js: Unterminated string constant (68:79)
 	Having a string without its closing quote.
+SyntaxError: C:/Dev/YardiPulse/dev/ysi.pulse.content/src/app/components/pages/site/site.routing.js: Unterminated comment (55:0)
+	Having an open block comment without a closing one.
+SyntaxError: C:/Dev/YardiPulse/dev/ysi.pulse.content/src/app/components/pages/site/overview-new/building-info/building-info.component.js: Unterminated regular expression (24:41)
+	Having the start of a regular expression, but not the end.
