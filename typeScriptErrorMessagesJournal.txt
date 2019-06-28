@@ -1,0 +1,2 @@
+SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\redux\features\modules\modules.reducer.ts: Unexpected token, expected "="
+	Having something where it looks like something else should be.
