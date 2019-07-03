@@ -2,3 +2,5 @@ SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\redux\features\modu
 	Having something where it looks like something else should be.
 SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\redux\features\modules\modules.reducer.ts: Unexpected token
 	Having something where it shouldn't be.
+Module not found: Can't resolve '/cafeangular/cafeangular.module'
+	Trying to import something from where it isn't.
