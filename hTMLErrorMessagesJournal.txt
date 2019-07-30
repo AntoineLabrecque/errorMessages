@@ -8,3 +8,5 @@ Unexpected end of expression: { value: $ctrl.getPointValue(chiller.flow) } | pre
 	Bad Syntax.
 Syntax Error: Token ')' not a primary expression at column 2 of the expression [() => ''] starting at [) => ''].
 	Having something where it looks like something else should be.
+Lexer Error: Unexpected next character  at columns 1-1 [^] in expression [/^[0-9]+$/].
+	Having something where it doesn't belong
