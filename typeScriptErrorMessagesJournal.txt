@@ -4,3 +4,5 @@ SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\redux\features\modu
 	Having something where it shouldn't be.
 Module not found: Can't resolve '/cafeangular/cafeangular.module'
 	Trying to import something from where it isn't.
+SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\components\pages\invalidate-cache\invalidate-cache.module.ts: Support for the experimental syntax 'exportDefaultFrom' isn't currently enabled (5:8):
+	Trying to use some experimental syntax without enabling it.
