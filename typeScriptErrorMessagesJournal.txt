@@ -6,3 +6,7 @@ Module not found: Can't resolve '/cafeangular/cafeangular.module'
 	Trying to import something from where it isn't.
 SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\components\pages\invalidate-cache\invalidate-cache.module.ts: Support for the experimental syntax 'exportDefaultFrom' isn't currently enabled (5:8):
 	Trying to use some experimental syntax without enabling it.
+SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\app.module.ts: Unterminated string constant
+	Not closing a string constant.
+SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\app.module.ts: Legacy octal literals are not allowed in strict mode
+	Trying to use a legacy thing when it is not allowed.
