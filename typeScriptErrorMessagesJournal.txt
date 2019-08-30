@@ -14,3 +14,5 @@ Module not found: Can't resolve './multi-equipment/water-source-heat-pumps.modul
 	Trying to import something from where it wasn't.
 SyntaxError: C:\Dev\YardiPulse\dev\plugins\lobos\ysi.pulse.lobos.content\aee\pages\water-source-heat-pumps\water-source-heat-pumps.module.ts: Identifier 'WaterSourceHeatPumpsModule' has already been declared
 	Declaring something more than once.
+Error: ENOENT: no such file or directory, open 'C:\Dev\YardiPulse\dev\plugins\lobos\ysi.pulse.lobos.content\aee\pages\water-source-heat-pumps\single-equipment\details\water-source-heat-pump-details.module.ts'
+	Trying to import from a file that doesn't exist.
