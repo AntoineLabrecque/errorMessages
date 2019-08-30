@@ -65,3 +65,7 @@ SyntaxError: C:\Dev\YardiPulse\dev\ysi.pulse.content\src\app\components\pages\pa
 	Using await outside of an async function.
 SyntaxError: C:\Dev\YardiPulse\dev\plugins\lobos\ysi.pulse.lobos.content\fdd\pages\trends\components\Trends.jsx: Support for the experimental syntax 'exportDefaultFrom' isn't currently enabled
 	Trying to use experimental syntax without enabling it.
+SyntaxError: C:\Dev\YardiPulse\dev\plugins\lobos\ysi.pulse.lobos.content\fdd\pages\trends\components\trendsetter\TrendsetterModal.jsx: Identifier '_noop' has already been declared
+	Declaring something more than once.
+SyntaxError: C:\Dev\YardiPulse\dev\plugins\lobos\ysi.pulse.lobos.content\fdd\pages\trends\components\Trends.jsx: Unexpected token, expected "jsxTagEnd"
+	Not having a closing jsx tag.
