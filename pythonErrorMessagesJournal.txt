@@ -1,0 +1,2 @@
+SyntaxError: invalid syntax
+	Bad syntax.
