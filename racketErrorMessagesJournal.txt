@@ -1,0 +1,22 @@
+error: unbound identifier in: error
+	Trying to use something that is not defined.
+define: bad syntax (multiple expressions after identifier) in: (define swapper lambda (first second list))
+	Having more than one expression after an identifier.
+lambda: bad syntax in: (lambda (first second list))
+	Bad syntax.
+check-expect: expects only 2 arguments, but found 3 in: (check-expect 0 fib 0)
+	Giving something more arguments than it expects.
+read-syntax: unexpected `)`
+	Having something in the wrong place.
+read-syntax: expected a `)` to close `(`
+	Not having braces matched up.
+cases: not a datatype name in: bintree
+	Trying to do cases with something that isn't a datatype.
+read-syntax: missing `)` to close `(` on line 229, found instead `]`
+	Not having braces matched up.
+read-syntax: illegal use of `.`
+	Using something the wrong way.
+#%app: bad syntax in: (#%app int . int)
+	Bad syntax.
+if: missing an "else" expression in: (if (equal? (quote ()) (cdr firstBits)) (if carryIn (carry1 secondBits) secondBits))
+	Having an if without an else.
