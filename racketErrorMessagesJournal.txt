@@ -20,3 +20,31 @@ read-syntax: illegal use of `.`
 	Bad syntax.
 if: missing an "else" expression in: (if (equal? (quote ()) (cdr firstBits)) (if carryIn (carry1 secondBits) secondBits))
 	Having an if without an else.
+standard-module-name-resolver: collection not found
+  for module path: vector-values
+  collection: "vector-values"
+  in collection directories:
+   C:\Users\ajql8\AppData\Roaming\Racket\7.4\collects
+   C:\Program Files\Racket\collects
+   ... [166 additional linked and package directories]
+  no package suggestions are available .
+	Trying to import something that isn't there.
+vector-values: not a require sub-form in: (vector-values)
+	Trying to import something impropperly.
+only-in: identifier `vector-values' not included in nested require spec in: racket/base
+	Trying to import something from the wrong place.
+read-syntax: unknown escape sequence `\ ` in string
+	Having an escape sequence that isn't know in a string.
+_run: undefined;
+ cannot reference an identifier before its definition
+	Trying to reference an identifier before its definition.
+read-syntax: missing `]` to close preceding `[`, found instead `)`
+	Not having braces matched up.
+define-datatype: expected a field name followed by a predicate expression, all in parentheses in: eval-thr?
+	Having something where it looks like it shouldn't be.
+module: identifier already defined in: eval-exp
+	Trying to define something more than once.
+lambda: duplicate argument name in: thr*
+	Using the same name moree than once.
+cases: missing cases for the following variants: eval-thr cont-thr in: (cases thr t)
+	Not having cases for all of the possiblities in a cases statement.
