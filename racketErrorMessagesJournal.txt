@@ -48,3 +48,13 @@ lambda: duplicate argument name in: thr*
 	Using the same name moree than once.
 cases: missing cases for the following variants: eval-thr cont-thr in: (cases thr t)
 	Not having cases for all of the possiblities in a cases statement.
+cases: duplicate field identifier in: _
+	Having more than one field of the same name in a case.
+cases: not a variant of `cell' in: fwd-cell
+	Having a case that isn't applicable.
+cases: variant case `store' for `sto' has wrong field count (expected 4, found 3) in: (store (_a _n _) (begin (display (deref _n)) (display-cells (deref _a)) (newline)))
+	Not having the right number of fields for a type in a case.
+else: not allowed as an expression in: (else (eopl:error (quote get-next-index) "not a store: ~a" *STORE*))
+	Bad syntax.
+let-values: bad syntax in: (let-values ((_ n (trace-young-loc l (+ n s) K V))) (values nl n))
+	Bad syntax.
