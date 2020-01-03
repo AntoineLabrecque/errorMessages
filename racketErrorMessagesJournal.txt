@@ -1,5 +1,5 @@
 error: unbound identifier in: error
-	Trying to use something that is not defined.
+	Something that looks like something is trying to use something that is not defined.
 define: bad syntax (multiple expressions after identifier) in: (define swapper lambda (first second list))
 	Having more than one expression after an identifier.
 lambda: bad syntax in: (lambda (first second list))
@@ -57,4 +57,20 @@ cases: variant case `store' for `sto' has wrong field count (expected 4, found 3
 else: not allowed as an expression in: (else (eopl:error (quote get-next-index) "not a store: ~a" *STORE*))
 	Bad syntax.
 let-values: bad syntax in: (let-values ((_ n (trace-young-loc l (+ n s) K V))) (values nl n))
+	Bad syntax.
+cases: else clause must be last in: (bool-type BOOLEAN_STRING)
+	Bad syntax.
+unquote: not in quasiquote in: unquote
+	Having an unquote outside of a quasiquote.
+check-expect: expects 2 arguments, but found only 1 in: (check-expect (unparse-type (ptr-type (bool-type)) (format POINTER_STRING BOOLEAN_STRING)))
+	Giving something less arguments than it expects.
+#%app: missing procedure expression;
+ probably originally (), which is an illegal empty application in: (#%app)
+	Applying nothing.
+read-syntax: bad syntax `#<`
+	Bad syntax.
+if: bad syntax in: (if (null? c*) (_type-of-exp e r) (type-of-cmd (car c*) r) (loop (cdr c*)))
+	Having bad syntax in an if statement.
+..\..\..\..\..\..\..\..\..\Program Files\Racket\share\pkgs\eopl\datatype.rkt:97:38: type: illegal use of syntax
+  value at phase 1: #<dt> in: (type t)
 	Bad syntax.
