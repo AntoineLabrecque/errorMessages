@@ -1,2 +1,4 @@
 SyntaxError: invalid syntax
 	Bad syntax.
+SyntaxError: only single target (not tuple) can be annotated
+	Trying to annotate a tuple.
