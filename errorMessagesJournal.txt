@@ -154,3 +154,31 @@ error: ld returned 1 exit status
 	References could not be matched up.
 error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
 	Trying to compile a file that needs the ISO C++ 2011 standard without it.
+error: no match for ‘operator>>’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘DOUBLE’ {aka ‘long double’})
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘bool&’ to an rvalue of type ‘bool’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘short int&’ to an rvalue of type ‘short int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘short unsigned int&’ to an rvalue of type ‘short unsigned int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘int&’ to an rvalue of type ‘int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘unsigned int&’ to an rvalue of type ‘unsigned int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘long int&’ to an rvalue of type ‘long int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘long unsigned int&’ to an rvalue of type ‘long unsigned int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘long long int&’ to an rvalue of type ‘long long int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘long long unsigned int&’ to an rvalue of type ‘long long unsigned int’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘float&’ to an rvalue of type ‘float’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘double&’ to an rvalue of type ‘double’
+	Trying to apply an operation with the wrong types.
+error: cannot bind non-const lvalue reference of type ‘long double&’ to an rvalue of type ‘DOUBLE’ {aka ‘long double’}
+	Trying to apply an operation with the wrong types.
+error: no type named ‘type’ in ‘struct std::enable_if<false, std::basic_istream<char>&>’
+	Trying to apply an operation with the wrong types.
