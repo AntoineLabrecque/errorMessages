@@ -2,3 +2,5 @@ SyntaxError: invalid syntax
 	Bad syntax.
 SyntaxError: only single target (not tuple) can be annotated
 	Trying to annotate a tuple.
+SyntaxError: unexpected EOF while parsing
+	Expecting something to complete something from before that doesn't show up.
